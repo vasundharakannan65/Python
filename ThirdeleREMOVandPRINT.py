@@ -1,10 +1,12 @@
-def remove_nums(int_list):
-  position = 3 - 1 
-  idx = 0
-  len_list = (len(int_list))
-  while len_list>0:
-    idx = (position+idx)%len_list
-    print(int_list.pop(idx))
-    len_list -= 1
-nums = [10,20,30,40,50,60,70,80,90]
-remove_nums(nums)
+list1=[0,1,2,3,4,5]
+len_list1=len(list1)
+for i in list1:
+    if len_list1>0:
+            try:
+                while (list1[i]==list1[2]):
+                   print(list1.pop(i))
+                   print(list1)
+            except IndexError:
+                    print("INDEX ERROR:Index out of range")
+print(list1.pop(1))
+print(list1.pop(0))
