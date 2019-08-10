@@ -5,4 +5,5 @@ def func():
     print(l)
     print(l[:5])#To print first 5 elements
     print(l[-5:])#To print last 5 elements
+    print(l[5:])#To print elements except first 5
 func()
