@@ -1,0 +1,6 @@
+c=str(input())
+print(c.isalnum())
+print(c.isalpha())
+print(c.isdigit()) 
+print(c.islower()) 
+print(c.isupper())
